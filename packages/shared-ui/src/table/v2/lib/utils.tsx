@@ -5,7 +5,7 @@ import { Row } from "@tanstack/react-table";
  * are quoted
 
  *
- * @param {string} filter A string of terms to filter for, where each term is seperated by a space,
+ * @param {string} filter A string of terms to filter for, where each term is separated by a space,
  * unless term is inbetween quotes
  */
 function createSearchRegExp(filter: string) {
